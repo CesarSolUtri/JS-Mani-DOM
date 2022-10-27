@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="robots" content="index, follow"/>
+        <meta name="description" content="Esta pagina te mostrará algo"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title> Promedios</title>
+
+    </head>
+    <body>
+        <header>
+            <h1>
+                Página que te ayuda a calcular los promedios
+            </h1>
+            <p1>Este es el tercer taller del curso práctico de Javascript</p1>
+        </header>
+        <main>
+            <section>
+                <h2>Calcula el área y el perimetro de un Cuadrado </h2>    
+                <form>
+                    <label for="InputCuadrado">
+                        Escribe cuanto mide cada lado de tu cuadrado
+                    </label>
+                    <input id= "InputCuadrado" type="number"/>
+                    <button type="button" onclick="calcularPerimetroCuadrado()"> 
+                        Calcular el perimetro
+                    </button>
+                    <button type="button" onclick="calcularAreaCuadrado()">
+                        Calcular el area 
+                    </button>
+                </form>           
+            </section>
+            <section>
+                <h2>Calcula el área y el perimetro de un Triangulo</h2>    
+                <form>
+                    <label for="InputTriangulo">
+                        Escribe cuanto mide la base
+                    </label>
+                    <input id= "InputTriangulo" type="number"/>
+                    <label for="InputTriangulo">
+                        Escribe cuanto mide un lado
+                    </label>
+                    <input id= "InputTriangulo2" type="number"/>
+                    <button type="button" onclick="calcularPerimetrpTriangulo()"> 
+                        Calcular el perimetro
+                    </button>
+                    <button type="button" onclick="calcularAreaTriangulo()">
+                        Calcular el area 
+                    </button>
+                </form>           
+            </section>
+            <section>
+                <h2>Calcula el área y el perimetro de un Circulo</h2>    
+                <form>
+                    <label for="InputCirculo">
+                        Escribe cuanto mide su Radio
+                    </label>
+                    <input id= "InputCirculo" type="number"/>
+                    <button type="button" onclick="calcularPerimetroCirculo()"> 
+                        Calcular el perimetro
+                    </button>
+                    <button type="button" onclick="calcularAreaCirculo()">
+                        Calcular el area 
+                    </button>
+                </form>           
+            </section>
+
+        </main>
+        <footer>
+            <p> Soy un parrafo</p>
+            <h1></h1>
+
+        </footer>
+        <script src="./promedios.js"></script>
+
+    </body>
+</html>
